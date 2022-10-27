@@ -1,5 +1,6 @@
 {{- if .Values.cronJob.enabled }}
 {{- range $name, $job := .Values.cronJob.jobs }}
+---
 apiVersion: batch/v1
 kind: CronJob
 metadata:
