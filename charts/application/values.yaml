@@ -711,7 +711,32 @@ prometheusRule:
     #       expr: up{namespace="test-app"} == 0
     #       for: 1m
     #       labels:
-    #         severity: critical  
+    #         severity: critical
+##########################################################
+# External Services
+##########################################################
+externalServices:
+  enabled: false
+  services:
+    # serviceNameExample:
+    #   additionalLabels:
+    #     # expose: "true"
+    #   annotations: {}
+    #   type: ExternalName
+    #   externalName: application.clustername.cluster.svc.local
+    #   ports:
+    #   - name: port-name
+    #     port: 8080
+    #   - name: port-name2
+    #     port: 8080
+    # serviceNameExample2:
+    #   type: ExternalName
+    #   externalName: application.clustername.cluster.svc.local
+    #   ports:
+    #   - name: port-name
+    #     port: 8080
+    #   - name: port-name2
+    #     port: 8080
 ##########################################################
 # External Secrets
 ##########################################################
