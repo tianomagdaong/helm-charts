@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v1
+    created: "2025-01-14T04:12:05.435048632Z"
+    description: Generic application helm chart
+    digest: a7950ee69d1b30709100701e53823b69efb341d3d1947b84e9684aca2bd06ed4
+    name: application
+    urls:
+    - https://github.com/tianomagdaong/helm-charts/releases/download/application-1.0.3/application-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
     created: "2022-10-27T07:52:47.342632561Z"
     description: Generic application helm chart
     digest: f0adab2eed03a54f0184a6220c9191cfeb5122b855c148fce370090a8479793d
@@ -25,4 +33,4 @@ entries:
     urls:
     - https://github.com/tianomagdaong/helm-charts/releases/download/application-1.0.0/application-1.0.0.tgz
     version: 1.0.0
-generated: "2022-10-27T07:52:47.342645661Z"
+generated: "2025-01-14T04:12:05.435067899Z"
